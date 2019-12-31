@@ -104,6 +104,7 @@
     <service name="AddressManager" provider="java:RPC">
       <parameter name="className" value="example.service.AddressManager"/>
       <parameter name="allowedMethods" value="*"/>
+      <!-- //TODO 复杂对象上传未完待续 -->
       <beanMapping qname="myNSD:Address"
                    xmlns:myNSD="urn:AddressManager"
                    languageSpecificType="java:model.Address" />
